@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS coffee_time CASCADE;
+CREATE TABLE coffee_time(
+    id SERIAL PRIMARY KEY,
+    time DATE
+);
