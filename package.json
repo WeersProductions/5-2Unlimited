@@ -1,0 +1,44 @@
+{
+  "name": "52unlimited",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeersProductions/5-2Unlimited.git"
+  },
+  "author": "Floris Weers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeersProductions/5-2Unlimited/issues"
+  },
+  "homepage": "https://github.com/WeersProductions/5-2Unlimited#readme",
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "express": "^4.16.4",
+    "nconf": "^0.10.0",
+    "path": "^0.12.7",
+    "pg": "^7.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "webpack": "^4.20.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2"
+  }
+}
