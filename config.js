@@ -19,7 +19,7 @@ nconf
   .file({ file: path.join(__dirname, 'config.json') })
   // 4. Defaults
   .defaults({
-    PORT: 3000,
+    PORT: 8000,
 
     DATABASE_NAME: '52unlimited',
     DATA_BACKEND: 'postgresql'
