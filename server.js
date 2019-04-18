@@ -13,5 +13,5 @@ coffeeRoutes(app);
 
 const server = app.listen(config.get('PORT'), () => {
   const { port } = server.address();
-  console.log(`audio RESTful API server started on: ${port}`);
+  console.log(`5-2 Unlimited RESTful API server started on: ${port}`);
 });
