@@ -6,7 +6,7 @@ const pool = new Pool({
   password: config.get('SQL_PASSWORD'),
   database: config.get('DATABASE_NAME'),
   // connectionString: config.get('DATABASE_URL'),
-  port: '27017',
+  port: '5432',
   host: 'localhost'
 });
 
